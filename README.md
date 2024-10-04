@@ -1,5 +1,5 @@
-# Server Side Transactions Boilerplate
-A simple nodejs backend that relays transactions via the Sequence Transactions API from a restricted origin frontend. Server can be generalized for any type of transaction beyond just collectible minting (e.g. distributing ERC20 tokens to wallets).
+# Sequence Transactions Manager
+Leveraging our transaction API in an express backend to mint NFTs, you can leverage this Dockerfile in order to deploy your backend.
 
 ## Prerequisites
 - Docker Installed
