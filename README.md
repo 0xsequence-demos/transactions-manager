@@ -6,8 +6,8 @@ Leveraging our transaction API in an express backend to mint NFTs, you can lever
 
 
 ## How to Run
-1. `Update Server Configuration`: Copy `.env.example` to `.env` with `cp .env.example .env` and complete fields.
-2. run `docker build -t transaction-manager . && docker run -p 3001:3001 transaction-manager` to build the image and start the container.
+1. Copy `.env.example` to `.env` with `cp .env.example .env` and complete fields.
+2. Run `docker build -t transaction-manager . && docker run -p 3001:3001 transaction-manager` to build the image and start the container.
 
 
 Then mint an ERC721 collectible to your wallet by swapping out the `walletAddress` with your address in the following command:

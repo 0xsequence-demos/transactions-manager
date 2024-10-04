@@ -52,6 +52,9 @@ app.post('/mint', async (req: any,res: any) => {
         // Get the signer for the provided chain handle
         const signer = await getSigner(chainHandle)
 
+        // Address to give permissions to for access control rights
+        console.log("Sequence Wallet Address: " + signer.account.address)
+
         // Validate the provided wallet address
         if (!isValidEthereumAddress(walletAddress)) {
             return res.status(400).send({ error: "Please provide a valid EVM wallet address" });
